@@ -1,0 +1,87 @@
+void setup(){
+ size(600,500);}
+ 
+void draw(){
+  //crear una ventana de 300 x400
+}
+
+void mouseMoved(){
+ 
+background(250,247,248);
+}
+
+void mouseClicked(){
+fill(8,0,0);
+ textSize(30);
+ text("Caperucita roja",300,80);
+ 
+ fill(255,255,255);
+circle(250,150,100);//cabeza
+
+fill(255,255,255);
+circle(230,140,15);//ojos
+circle(270,140,15);
+
+fill(0,0,0);
+circle(230,140,8);//pupilas
+circle(270,140,8);
+
+fill(234,59,144);
+circle(210,160,15);
+circle(290,160,15);
+
+
+
+noFill();
+arc(250, 160, 50, 50, 0, PI, OPEN );//boca
+
+fill(200,0,0);
+stroke(20);
+strokeWeight(3);
+ellipse(250,95,107,40);//Sombrero
+
+fill(200,0,0);
+stroke(20);
+strokeWeight(3);
+
+stroke(10);
+strokeWeight(2);
+fill(200,0,0);
+rect(212,200,80,150);//cuerpo
+
+fill(255,255,255);
+circle(200,360,30);//manos
+circle(305,360,30);
+
+fill(200,0,0);
+rect(190,200,20,150);//brazos 
+rect(294,200,20,150);
+
+
+stroke(#804000);
+strokeWeight(30);
+rect(225,330,60,60);
+
+
+
+
+stroke(200,0,0);
+strokeWeight(3);
+
+
+
+stroke(20);
+strokeWeight(3);
+rect(202,350,99,100);//rodillas
+rect(200,350,99,100);
+
+
+
+stroke(20);
+strokeWeight(2);
+fill(#080000);
+rect(250,430,50,130);//Zapatos
+rect(200,430,50,70);
+
+
+}
